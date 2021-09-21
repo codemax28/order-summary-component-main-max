@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e0e8ff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.main{
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.music{
+    background-color: #F7F9FF;
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.annual h2{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #717FA6;
+}
+
+.pay{
+    border:none;
+    background-color:#382AE1 ;
+    color: white;
+    padding: 10px;
+    width: 78%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.cancel{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.cancel a{
+    /* margin-left:123px; */
+    text-decoration: none;
+
+}
+
+@media (max-width: 450px){
+
+ 
+    .main{
+        width: 350px;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+        -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    }
+}
