@@ -67,6 +67,7 @@ p{
     border-radius: 10px;
     font-weight: 900;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .cancel{
